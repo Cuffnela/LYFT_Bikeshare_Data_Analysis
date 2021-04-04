@@ -1,17 +1,17 @@
 # LYFT Bikeshare Query Project
 
-- This is a theoretical query project completed during the UC Berkeley MIDS program.
+This is a theoretical query project completed during the UC Berkeley MIDS program.
   The project focuses on utilizing SQL through the Google Cloud Platform (GCP) and BiqQuery to answer business-driven
   questions using public datasets housed in GCP. Queries were complete through the web UI (BigQuery)
   and query command-line tools through the GCP terminal and Jupyter Notebooks.
 
 ## Original Problem Statement
 
-- You're a data scientist at Lyft Bay Wheels (https://www.lyft.com/bikes/bay-wheels), formerly known as Ford GoBike, the
+You're a data scientist at Lyft Bay Wheels (https://www.lyft.com/bikes/bay-wheels), formerly known as Ford GoBike, the
   company running Bay Area Bikeshare. You are trying to increase ridership, and
   you want to offer deals through the mobile app to do so. 
   
-- What deals do you offer though? Currently, your company has several options which can change over time.  Please visit the website to see the current offers and other marketing information. Frequent offers include: 
+What deals do you offer though? Currently, your company has several options which can change over time.  Please visit the website to see the current offers and other marketing information. Frequent offers include: 
   * Single Ride 
   * Monthly Membership
   * Annual Membership
@@ -20,15 +20,15 @@
   * Corporate Membership
   * etc.
 
-- Through this project, you will answer these questions: 
+Through this project, you will answer these questions: 
 
   * What are the 5 most popular trips that you would call "commuter trips"? 
   
   * What are your recommendations for offers (justify based on your findings)?
 
-- You won't find a column in a table labeled "commuter trip".  You will find you need to do quite a bit of data exploration using SQL queries to determine your own definition of a communter trip.  In data exploration process, you will find a lot of dirty data, that you will need to either clean or filter out. You will then write SQL queries to find the communter trips.
+You won't find a column in a table labeled "commuter trip".  You will find you need to do quite a bit of data exploration using SQL queries to determine your own definition of a communter trip.  In data exploration process, you will find a lot of dirty data, that you will need to either clean or filter out. You will then write SQL queries to find the communter trips.
 
-- Likewise to make your recommendations, you will need to do data exploration, cleaning or filtering dirty data, etc. to come up with the final queries that will give you the supporting data for your recommendations. You can make any recommendations regarding the offers, including, but not limited to: 
+Likewise to make your recommendations, you will need to do data exploration, cleaning or filtering dirty data, etc. to come up with the final queries that will give you the supporting data for your recommendations. You can make any recommendations regarding the offers, including, but not limited to: 
   * market offers differently to generate more revenue 
   * remove offers that are not working 
   * modify exising offers to generate more revenue
