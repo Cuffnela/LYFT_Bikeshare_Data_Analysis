@@ -1,7 +1,7 @@
 ## Part 1 - Querying Data with BigQuery
 
 ### Initial queries
-?
+
 Paste your SQL query and answer the question in a sentence.  Be sure you properly format your queries and results using markdown. 
 
 - What's the size of this dataset? (i.e., how many trips)
